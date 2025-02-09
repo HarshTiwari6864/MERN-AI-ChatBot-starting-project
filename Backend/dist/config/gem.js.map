@@ -1,0 +1,1 @@
+{"version":3,"file":"gem.js","sourceRoot":"","sources":["../../src/config/gem.ts"],"names":[],"mappings":"AAAA,yCAAyC;AAEzC;;;;;;IAMI;AACJ,OAAO,EAAE,kBAAkB,EAAE,MAAM,uBAAuB,CAAC;AAE3D,MAAM,CAAC,MAAM,eAAe,GAAG,GAAG,EAAE;IAChC,OAAO,IAAI,kBAAkB,CAAC,OAAO,CAAC,GAAG,CAAC,cAAc,CAAC,CAAC;AAC9D,CAAC,CAAC"}

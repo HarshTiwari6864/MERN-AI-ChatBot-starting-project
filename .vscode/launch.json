@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug Backend (Node.js)",
+        "type": "node",
+        "request": "launch",
+        "runtimeExecutable": "npx",  // Use npx to run ts-node
+        "runtimeArgs": [
+          "ts-node",  // Specify ts-node as the runtime
+          "--inspect-brk",  // Start debugging immediately
+          "${workspaceFolder}/Backend/src/index.ts"  // Path to your entry TypeScript file
+        ],
+        "cwd": "${workspaceFolder}/Backend",  // Set the current working directory to the backend folder
+        "outFiles": [
+          "${workspaceFolder}/Backend/dist/**/*.js"  // Path for compiled JavaScript files if any
+        ],
+        "console": "integratedTerminal",  // Use the integrated terminal for logs
+        "skipFiles": [
+          "<node_internals>/**"  // Skip Node.js internals
+        ]
+      }
+    ]
+  }
+  
